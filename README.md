@@ -1,4 +1,4 @@
-# lastest_version-blockchain-
+# latest_version-blockchain full node
 script python get latest version blockchain (bitcoin ethereum bsc litecoin,...) send with telegram 
 
 #arr ={"cardano":cardano_now,"walletcardano":walletcardano_now,"bsc":bsc_now,"bc":bc_now,"teron":teron_now,"tezos":teron_now,"litecoin":litecoin_now,"ethereum":ethereum_now}
@@ -32,7 +32,7 @@ urls = {
     'litecoin':'https://github.com/litecoin-project/litecoin/releases/latest',
     'ethereum':'https://github.com/ethereum/go-ethereum/releases/latest'
 }
-
+###############################################################################################3
 versions = []
 for index,value in enumerate(urls):
     res = requests.get(urls.get(value))
