@@ -20,6 +20,7 @@ def telegram():
     data = {'chat_id':-100172*********, 'text': changes}
     send = requests.post(message, data = data)
     # print(send.json())
+    
 ###########################################################################
 
 
