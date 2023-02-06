@@ -12,7 +12,7 @@ from http_parser.parser import HttpParser
 def replace_last(source_string, replace_what, replace_with):
     head, _sep, tail = source_string.rpartition(replace_what)
     return head + replace_with + tail
-##########################################################################
+#send output to telegram 
 def telegram():
 
     bot_token = '2146359208:*******ggwTs5_lp*******'
@@ -20,8 +20,8 @@ def telegram():
     data = {'chat_id':-100172*********, 'text': changes}
     send = requests.post(message, data = data)
     # print(send.json())
-###########################################################################
-
+    
+#get url from github repository
 
 urls = {
     'cardano':'https://github.com/input-output-hk/cardano-node/releases/latest',
