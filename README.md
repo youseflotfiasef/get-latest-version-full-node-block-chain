@@ -22,7 +22,7 @@ def telegram():
     # print(send.json())
     
 #get url from github repository
-
+```
 urls = {
     'cardano':'https://github.com/input-output-hk/cardano-node/releases/latest',
     'walletcardano':'https://github.com/input-output-hk/cardano-wallet/releases/latest',
@@ -32,7 +32,8 @@ urls = {
     'litecoin':'https://github.com/litecoin-project/litecoin/releases/latest',
     'ethereum':'https://github.com/ethereum/go-ethereum/releases/latest'
 }
-###############################################################################################3
+```
+
 versions = []
 for index,value in enumerate(urls):
     res = requests.get(urls.get(value))
